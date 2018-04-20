@@ -8,3 +8,6 @@ def display_board(current_state)
   output += " #{board[6]} | #{board[7]} | #{board[8]} \n"
   print output
 end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
